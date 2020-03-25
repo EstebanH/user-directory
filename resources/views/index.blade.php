@@ -3,8 +3,8 @@ $url = app('Flarum\Http\UrlGenerator');
 ?>
 <div class="container">
     <h2>{{ $translator->trans('fof-user-directory.forum.page.nav') }}</h2>
-
     <ul>
+        <h1>Testing 1 2 3</h1>
         @foreach ($apiDocument->data as $user)
             <li>
                 {{ $user->attributes->username }}
