@@ -66,6 +66,17 @@ export default class UserDirectoryPage extends Page {
                         <nav className="IndexPage-nav sideNav">
                             <ul>{listItems(this.sidebarItems().toArray())}</ul>
                         </nav>
+                        <li class="item-search">
+                            <div class="Search active">
+                                <div class="Search-input">
+                                    <input class="FormControl" type="search" placeholder="Search Forum"></input>
+                                    <button class="Search-clear Button Button--icon Button--link">
+                                        <i class="icon fas fa-times-circle "></i>
+                                    </button>
+                                </div>
+                                <ul class="Dropdown-menu Search-results"></ul>
+                            </div>
+                        </li>
                         <div className="IndexPage-results sideNavOffset">
                             <div className="IndexPage-toolbar">
                                 <ul className="IndexPage-toolbar-view">{listItems(this.viewItems().toArray())}</ul>

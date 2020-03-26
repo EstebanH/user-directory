@@ -1,6 +1,6 @@
 {
     "name": "estebanh/user-directory",
-    "description": "The permission based public user directory extension for your Flarum forum.",
+    "description": "Custom version of FOF : The permission based public user directory extension for your Flarum forum.",
     "keywords": [
         "extension",
         "flarum",
@@ -20,6 +20,10 @@
             "name": "Clark Winkelmann",
             "email": "clark.winkelmann@gmail.com",
             "homepage": "https://clarkwinkelmann.com/"
+        },
+        {
+            "name": "Esteban Huezo",
+            "email": "huezoe@gmail.com"
         }
     ],
     "require": {
@@ -31,7 +35,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "FoF User Directory",
+            "title": "EstebanH User Directory",
             "icon": {
                 "name": "far fa-address-book",
                 "backgroundColor": "#e74c3c",
